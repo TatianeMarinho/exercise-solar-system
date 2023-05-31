@@ -1,4 +1,8 @@
-function Title(headline: string) {
+type TitleProps = {
+  headline: string;
+};
+
+function Title({ headline }: TitleProps) {
   return (
     <h2>
       { headline }
